@@ -1,12 +1,13 @@
 # python-challenge-1
 This python program is to allow customers to place an order.
+
 This includes 
  -  Storing the customer's order and 
  - Printing the receipt with the total price of all items ordered.
 
 ## Usage
 
- The following menu will be presesened to a customer 
+ The following menu will be presented to a customer.
 
         1: Snacks
 
@@ -19,7 +20,7 @@ This includes
 
 Customer needs to enter menu item for the above menu list.
 
-For exmaple if customer inputs "1", following submenu will appear on screen
+For exmaple, if customer inputs "1", following submenu will appear on screen
 >
         Item # | Item name                | Price
         -------|--------------------------|-------
@@ -28,10 +29,12 @@ For exmaple if customer inputs "1", following submenu will appear on screen
         3      | Apple                    | $0.49
         4      | Granola bar              | $1.99
 
-The customer needs to select the itme from submenu and input the quantity for the order. The quantity will be set to 1 quantiy input is invalid. 
+The customer needs to select the item from submenu and input the quantity for the order. The quantity will be set to 1 if quantity input is invalid. 
 
-Customer can navigate through menu and submenu list if the customer wants to order more items.
-After completing, the order, the customer will be presented with the reciept for the order placed.
+Customer can navigate through menu and submenu list, if the customer wants to order more items.
+
+After completing the order, the customer will be presented with the reciept for the order placed.
+
 For example
 > 
     Item name                 | Price    | Quantity
@@ -50,7 +53,7 @@ Python version : 3.10.13
     Integer, String, Float, Boolean,
 
     List of Dictionaries: for exmaple
-
+```python
     [
 
      {
@@ -61,7 +64,7 @@ Python version : 3.10.13
         "Quantity": int
      }
     ]
-
+```
 *   How to navigate through dictionary items? Example:
 ```python
         for key, value in menu[menu_category_name].items():
@@ -98,7 +101,7 @@ Python version : 3.10.13
      match - case 
 
 
-*f string, exmaple
+* f string, exmaple
 ```python
 print(f"{menu_category} was not a menu option.")
 ```    
